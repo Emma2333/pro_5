@@ -1,0 +1,162 @@
+html{
+    background-color: #DEDEDE;
+}
+
+/*  */
+body, h1, h2{
+    margin: 0px;
+}
+
+article h3 {
+    color:#6E6D75;
+}
+
+nav {
+    padding:10px 27px;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+nav img {
+    float: left;
+    height:60px;
+    width:163px;
+    margin-left: 5px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    width:100px;
+    height: 25px;
+}
+
+nav ul li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li:last-child a{
+    color:#CCCCCC;
+}
+
+.container{
+    padding: 27px 500px 27px 27px;
+    overflow: hidden;
+    position: relative;
+}
+article{
+    width:100%;
+    float: left;
+    min-width: 443px;
+}
+section {
+    padding:52px 25px;
+    background-color: white;
+    margin-bottom: 26px;
+    border-right: 2px #848484 solid;
+    border-bottom: 2px #848484 solid;
+}
+
+section .description {
+    color:#B3B3B4;
+}
+
+section table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+section th, section td {
+    border:solid 1px #DFDFDD;
+    padding: 5px;
+}
+
+section tr:first-child {
+    background-color: #333333;
+    color:white;
+}
+
+section tr:last-child {
+    background-color: #CCCCCC;
+}
+
+.gallery{
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+.gallery div {
+    width:140px;
+    height: 140px;
+    padding: 14px;
+    text-align: center;
+    border:solid 1px #DBDBDB;
+    margin-bottom: 20px;
+    float: left;
+    margin-right:10px;
+}
+
+.gallery p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.gallery img {
+    width:136px;
+    height: 111px;
+}
+
+aside{
+    width:418px;
+    padding:40px 24px;
+    background-color: white;
+    border-right: 2px #848484 solid;
+    border-bottom: 2px #848484 solid;
+    position: absolute;
+    right: 20px;
+}
+
+aside table{
+    width:100%;
+    margin-top: 29px;
+}
+aside table td {
+    padding: 5px;
+}
+aside table td:first-child{
+    padding-right: 14px;
+    text-align: right;
+}
+
+aside span {
+    color:#BABDB7;
+}
+aside table textarea {
+    width: 90%;
+}
+
+aside table input[type="submit"]{
+    padding:8px 0px;
+    width: 100%;
+    background-color: #3355D0;
+    border-radius: 10px;
+    font-size:23px;
+    color:white;
+}
+
+footer {
+    background-color: #333333;
+    text-align: center;
+    color:white;
+    padding: 30px 0px;
+}
+@media screen and (max-width : 600px){
+    aside{
+        position: static;
+    }
+}
